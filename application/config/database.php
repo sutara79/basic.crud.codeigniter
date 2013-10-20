@@ -66,11 +66,11 @@ $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 */
 // SQLite
-$db['default']['hostname'] = '';
+$db['default']['hostname'] = 'sqlite:'.APPPATH.'db/test.sqlite3';
 $db['default']['username'] = '';
 $db['default']['password'] = '';
-$db['default']['database'] = 'db/test.sqlite3';
-$db['default']['dbdriver'] = 'sqlite';
+$db['default']['database'] = '';
+$db['default']['dbdriver'] = 'pdo';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;

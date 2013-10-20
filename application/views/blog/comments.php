@@ -11,5 +11,6 @@
 		<?php endforeach ?>
 		<br>
 	<?php endforeach ?>
+	<?php print $paging ?>
 </body>
 </html>
