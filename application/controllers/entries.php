@@ -16,7 +16,7 @@ class Entries extends CI_Controller {
 		$this->load->model('Entry');
 		$this->load->library('session');
 		$this->lang->load('common');
-		$this->load->helper(array('url', 'html', 'form', 'language', 'MY_nav'));
+		$this->load->helper(array('url', 'html', 'form', 'language', 'my_nav'));
 	}
 
 	// ----------------------------------------------------
