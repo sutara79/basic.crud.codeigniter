@@ -58,7 +58,7 @@ $config['uri_protocol']	= 'AUTO';
 | http://codeigniter.com/user_guide/general/urls.html
 */
 
-$config['url_suffix'] = '.html';
+$config['url_suffix'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -70,7 +70,8 @@ $config['url_suffix'] = '.html';
 | than english.
 |
 */
-$config['language']	= 'english';
+// $config['language']	= 'english';
+$config['language']	= 'japanese';
 
 /*
 |--------------------------------------------------------------------------
@@ -225,7 +226,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'saitasaitasakuragasaita';
 
 /*
 |--------------------------------------------------------------------------

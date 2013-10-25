@@ -1,12 +1,11 @@
-<h2>Home</h2>
-<table class="table table-hover table-responsive">
+<table class="table table-hover">
 	<thead>
 		<tr>
-			<th>id</th>
-			<th>name</th>
-			<th>body</th>
-			<th>created</th>
-			<th>modified</th>
+			<th><?php print lang('field_id') ?></th>
+			<th><?php print lang('field_name') ?></th>
+			<th><?php print lang('field_body') ?></th>
+			<th><?php print lang('field_created') ?></th>
+			<th><?php print lang('field_modified') ?></th>
 			<th></th>
 		</tr>
 	</thead>
@@ -14,36 +13,12 @@
 		<?php foreach ($rows as $row) : ?>
 		<tr>
 			<?php foreach ($row as $val) : ?>
-			<td style="max-width:200px; white-space: nowrap; overflow: hidden"><?php print $val ?></td>
+			<td><?php print $val ?></td>
 			<?php endforeach ?>
 			<td>
-				<?php print ul(
-					array(
-						anchor(
-							"entries/view/{$row->id}", ' ',
-							array(
-								'class' => 'glyphicon glyphicon-arrow-right',
-								'title' => 'View'
-							)
-						),
-						anchor(
-							"entries/edit/{$row->id}", ' ',
-							array(
-								'class' => 'glyphicon glyphicon-pencil',
-								'title' => 'Edit'
-							)
-						),
-						anchor(
-							"entries/delete/{$row->id}", ' ',
-							array(
-								'class' => 'glyphicon glyphicon-trash',
-								'title' => 'Delete',
-								'onclick' => 'return confirmDelete()'
-							)
-						)
-					),
-					array('class' => 'nav nav-pills')
-				) ?>
+				<ul class="nav nav-pills">
+					<?php print myMenu($row->id, $method) ?>
+				</ul>
 			</td>
 		</tr>
 		<?php endforeach ?>

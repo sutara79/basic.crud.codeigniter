@@ -1,23 +1,15 @@
 			<hr>
 			<footer>
-				<address>
+				<address class="text-right">
 					powered by <?php print anchor('http://getbootstrap.com/', 'Bootstrap') ?>
 				</address>
 			</footer>
 		</div>
+
 		<!-- JavaScript -->
 		<script src="http://code.jquery.com/jquery.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-		<script>
-			// 投稿を削除する処理
-			function confirmDelete() {
-				if (window.confirm('削除してよろしいですか?')) return true;
-				return false;
-			}
-
-			// jQuery
-			jQuery(document).ready(function($) {
-			});
-		</script>
+		<script>var confirm_delete = '<?php print lang("confirm_delete") ?>';</script>
+		<script src="<?php print site_url('assets/js/common.js') ?>"></script>
 	</body>
 </html>
