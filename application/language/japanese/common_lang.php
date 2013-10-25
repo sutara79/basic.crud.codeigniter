@@ -1,7 +1,7 @@
 <?php
 // 日本語
 $lang = array(
-	'app_title' => 'TestBlog',
+	'app_title' => 'CRUD基本テスト',
 	'confirm_delete' => '削除してよろしいですか?',
 	'crud_inserted' => '追加しました。',
 	'crud_deleted' => '削除しました。',

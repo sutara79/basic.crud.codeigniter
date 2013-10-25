@@ -13,7 +13,7 @@
 		<?php foreach ($rows as $row) : ?>
 		<tr>
 			<?php foreach ($row as $val) : ?>
-			<td><?php print $val ?></td>
+			<td><?php print htmlspecialchars($val) ?></td>
 			<?php endforeach ?>
 			<td>
 				<ul class="nav nav-pills">

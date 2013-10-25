@@ -8,7 +8,6 @@
 if ( ! function_exists('myMenu')) {
 	function myMenu($id, $method) {
 		$return = '';
-
 		// ---------------------------------------------------------
 		$return .= '<li';
 		$return .= ($method == 'view') ? ' class="active"' : '';

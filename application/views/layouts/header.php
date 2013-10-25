@@ -8,7 +8,12 @@
 	</head>
 	<body>
 		<div class="container">
-			<header><h1><?php print lang('app_title') ?></h1></header>
+			<header>
+				<h1>
+					<?php print lang('app_title') ?>
+					<small>(2013-10-25)</small>
+				</h1>
+			</header>
 
 			<!-- メッセージ表示欄 -->
 			<?php if ($msg = $this->session->userdata('msg')) : ?>

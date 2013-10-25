@@ -1,7 +1,16 @@
 			<hr>
 			<footer>
 				<address class="text-right">
-					powered by <?php print anchor('http://getbootstrap.com/', 'Bootstrap') ?>
+					<ul class="list-inline">
+						<li>
+							Yuusaku Miyazaki (toumin.m7@gmail.com, <a href="https://github.com/SutaraLumpur">GitHub</a>)
+						</li>
+						<li>
+							powered by
+							<?php print anchor('http://ellislab.com/codeigniter', 'CodeIgniter') ?>,
+							<?php print anchor('http://getbootstrap.com/', 'Bootstrap') ?>
+						</li>
+					</ul>
 				</address>
 			</footer>
 		</div>
