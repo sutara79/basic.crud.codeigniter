@@ -3,7 +3,7 @@
 				<address class="text-right">
 					<ul class="list-inline">
 						<li>
-							Yuusaku Miyazaki (toumin.m7@gmail.com, <a href="https://github.com/SutaraLumpur">GitHub</a>)
+							Yuusaku Miyazaki (toumin.m7@gmail.com, <a href="https://github.com/SutaraLumpur/basic.crud.codeigniter">GitHub</a>)
 						</li>
 						<li>
 							powered by
