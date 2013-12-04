@@ -1,5 +1,8 @@
+@charset "utf-8";
+
 table td {
-	max-width: 200px;
+	max-width: 250px;
 	white-space: nowrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }

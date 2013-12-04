@@ -1,11 +1,12 @@
 <table class="table table-hover">
 	<thead>
 		<tr>
-			<th><?php echo lang('entries_id') ?></th>
-			<th><?php echo lang('entries_name') ?></th>
-			<th><?php echo lang('entries_body') ?></th>
-			<th><?php echo lang('entries_created') ?></th>
-			<th><?php echo lang('entries_modified') ?></th>
+			<th><?php echo lang('users_id') ?></th>
+			<th><?php echo lang('users_name') ?></th>
+			<th><?php echo lang('users_mail') ?></th>
+			<th><?php echo lang('users_password') ?></th>
+			<th><?php echo lang('users_created') ?></th>
+			<th><?php echo lang('users_modified') ?></th>
 			<th></th>
 		</tr>
 	</thead>

@@ -1,11 +1,16 @@
-<?php print form_open('entries/insert', array('role' => 'form')) ?>
+<?php echo form_open('entries/insert', array('role' => 'form')) ?>
 	<div class="form-group">
-		<?php print form_label(lang('field_name'), 'name') ?>
-		<?php print form_input('name', '', 'class="form-control"') ?>
+		<?php echo form_label(lang('entries_name'), 'name') ?>
+		<?php echo form_error('name'); ?>
+		<?php echo form_input('name', set_value('name'), 'class="form-control"') ?>
 	</div>
 	<div class="form-group">
-		<?php print form_label(lang('field_body'), 'body') ?>
-		<?php print form_textarea('body', '', 'class="form-control"') ?>
+		<?php echo form_label(lang('entries_body'), 'body') ?>
+		<?php echo form_error('body'); ?>
+		<?php
+			// echo form_textarea('body', set_value('body'), 'class="form-control"')
+			echo form_textarea('body', set_value('body'),  'class="form-control"')
+		?>
 	</div>
-	<?php print form_submit('submit', lang('view_submit'), 'class="btn btn-primary"') ?>
-<?php print form_close() ?>
+	<?php echo form_submit('submit', lang('entries_submit'), 'class="btn btn-primary"') ?>
+<?php echo form_close() ?>

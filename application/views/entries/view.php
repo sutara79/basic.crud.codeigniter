@@ -1,16 +1,16 @@
 <dl class="dl-horizontal">
-	<dt><?php print lang('field_id') ?></dt>
-	<dd><?php print $row->id ?></dd>
+	<dt><?php echo lang('entries_id') ?></dt>
+	<dd><?php echo $row->id ?></dd>
 
-	<dt><?php print lang('field_name') ?></dt>
-	<dd><?php print htmlspecialchars($row->name) ?></dd>
+	<dt><?php echo lang('entries_name') ?></dt>
+	<dd><?php echo htmlspecialchars($row->name) ?></dd>
 	
-	<dt><?php print lang('field_body') ?></dt>
-	<dd><?php print str_replace("\n", '<br>', htmlspecialchars($row->body)) ?></dd>
+	<dt><?php echo lang('entries_body') ?></dt>
+	<dd><?php echo str_replace("\n", '<br>', htmlspecialchars($row->body)) ?></dd>
 
-	<dt><?php print lang('field_created') ?></dt>
-	<dd><?php print $row->created ?></dd>
+	<dt><?php echo lang('entries_created') ?></dt>
+	<dd><?php echo $row->created ?></dd>
 
-	<dt><?php print lang('field_modified') ?></dt>
-	<dd><?php print $row->modified ?></dd>
+	<dt><?php echo lang('entries_modified') ?></dt>
+	<dd><?php echo $row->modified ?></dd>
 </dl>	

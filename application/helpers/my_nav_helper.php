@@ -6,14 +6,14 @@
 
 // 記事1件の操作メニュー
 if ( ! function_exists('myMenu')) {
-	function myMenu($id, $method) {
+	function myMenu($id, $action, $controller) {
 		$return = '';
 		// ---------------------------------------------------------
 		$return .= '<li';
-		$return .= ($method == 'view') ? ' class="active"' : '';
+		$return .= ($action == 'view') ? ' class="active"' : '';
 		$return .= '>';
 		$return .= anchor(
-			"entries/view/{$id}", ' ',
+			"{$controller}/view/{$id}", ' ',
 			array(
 				'class' => 'glyphicon glyphicon-arrow-right',
 				'title' => lang('action_view')
@@ -22,10 +22,10 @@ if ( ! function_exists('myMenu')) {
 		$return .= '</li>';
 		// ---------------------------------------------------------
 		$return .= '<li';
-		$return .= ($method == 'edit') ? ' class="active"' : '';
+		$return .= ($action == 'edit') ? ' class="active"' : '';
 		$return .= '>';
 		$return .= anchor(
-			"entries/edit/{$id}", ' ',
+			"{$controller}/edit/{$id}", ' ',
 			array(
 				'class' => 'glyphicon glyphicon-pencil',
 				'title' => lang('action_edit')
@@ -35,7 +35,7 @@ if ( ! function_exists('myMenu')) {
 		// ---------------------------------------------------------
 		$return .= '<li>';
 		$return .= anchor(
-			"entries/delete/{$id}", ' ',
+			"{$controller}/delete/{$id}", ' ',
 			array(
 				'class' => 'glyphicon glyphicon-trash',
 				'title' => lang('action_delete'),
