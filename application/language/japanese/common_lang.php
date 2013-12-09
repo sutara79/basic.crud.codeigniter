@@ -14,6 +14,8 @@ $lang = array(
 	'action_index' => 'ホーム',
 	'action_delete' => '削除',
 	'action_view' => '表示',
+	'created' => '作成日時',
+	'modified' => '更新日時',
 
 	// ******************************************
 	// Entries
@@ -26,8 +28,6 @@ $lang = array(
 		'entries_id' => 'ID',
 		'entries_name' => 'タイトル',
 		'entries_body' => '本文',
-		'entries_created' => '作成日時',
-		'entries_modified' => '更新日時',
 		'entries_submit' => '公開する',
 
 	// ******************************************

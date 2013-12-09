@@ -5,8 +5,8 @@
 			<th><?php echo lang('users_name') ?></th>
 			<th><?php echo lang('users_mail') ?></th>
 			<th><?php echo lang('users_password') ?></th>
-			<th><?php echo lang('users_created') ?></th>
-			<th><?php echo lang('users_modified') ?></th>
+			<th><?php echo lang('created') ?></th>
+			<th><?php echo lang('modified') ?></th>
 			<th></th>
 		</tr>
 	</thead>
