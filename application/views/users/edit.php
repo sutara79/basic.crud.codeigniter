@@ -23,6 +23,17 @@
 			placeholder="<?php echo lang('users_mail_ph') ?>"
 		>
 	</div>
+	<?php // 現行のパスワード ------------------------------------------------ ?>
+	<div class="form-group">
+		<label for="password"><?php echo lang('users_password_current') ?></label>
+		<?php echo form_error('password_current'); ?>
+		<input
+			type="password"
+			name="password_current"
+			class="form-control"
+			value="<?php echo set_value('password_current'); ?>"
+		>
+	</div>
 	<?php // パスワード ------------------------------------------------ ?>
 	<div class="form-group">
 		<label for="password"><?php echo lang('users_password') ?></label>

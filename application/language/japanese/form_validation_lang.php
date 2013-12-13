@@ -38,5 +38,8 @@ $lang['ymd']                = "%s 欄は、正しい日付の形式で入力し�
 $lang['jis']                = "%s 欄には、環境依存文字・旧漢字がご利用いただけません。";
 $lang['pair']               = "%s 欄を入力した場合、%s 欄は必須となります。";
 
+// add on 2013-12-11
+$lang['password_current']   = "%s 欄が、現在のパスワードと一致していません。";
+
 /* End of file form_validation_lang.php */
 /* Location: ./system/language/japanese/form_validation_lang.php */

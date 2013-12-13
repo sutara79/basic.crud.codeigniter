@@ -45,6 +45,7 @@ $lang = array(
 		'users_mail_ph' => 'メールアドレス',
 		'users_password' => 'パスワード',
 		'users_password_ph' => '4文字以上、32文字以内',
+		'users_password_current' => '現在のパスワード',
 		'users_password_confirm' => 'パスワード (再入力)',
 		'users_submit' => '確定',
 );

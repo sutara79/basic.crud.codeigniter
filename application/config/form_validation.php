@@ -39,6 +39,11 @@ $config = array(
 			'rules' => 'trim|required|valid_email'
 		),
 		array(
+			'field' => 'password_current',
+			'label' => 'lang:users_password',
+			'rules' => 'trim|min_length[4]|max_length[32]|callback_password_current'
+		),
+		array(
 			'field' => 'password',
 			'label' => 'lang:users_password',
 			'rules' => 'trim|matches[password_confirm]|min_length[4]|max_length[32]|md5'
