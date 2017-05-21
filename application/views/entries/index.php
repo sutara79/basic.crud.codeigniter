@@ -4,9 +4,9 @@
 			<th><?php echo lang('entries_id') ?></th>
 			<th><?php echo lang('entries_name') ?></th>
 			<th><?php echo lang('entries_body') ?></th>
-			<th><?php echo lang('entries_created') ?></th>
-			<th><?php echo lang('entries_modified') ?></th>
-			<th></th>
+			<th><?php echo lang('created') ?></th>
+			<th><?php echo lang('modified') ?></th>
+			<th><?php echo lang('control_entry') ?></th>
 		</tr>
 	</thead>
 	<tbody>

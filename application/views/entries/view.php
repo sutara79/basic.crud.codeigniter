@@ -8,9 +8,9 @@
 	<dt><?php echo lang('entries_body') ?></dt>
 	<dd><?php echo str_replace("\n", '<br>', htmlspecialchars($row->body)) ?></dd>
 
-	<dt><?php echo lang('entries_created') ?></dt>
+	<dt><?php echo lang('created') ?></dt>
 	<dd><?php echo $row->created ?></dd>
 
-	<dt><?php echo lang('entries_modified') ?></dt>
+	<dt><?php echo lang('modified') ?></dt>
 	<dd><?php echo $row->modified ?></dd>
 </dl>	

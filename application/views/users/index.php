@@ -7,7 +7,7 @@
 			<th><?php echo lang('users_password') ?></th>
 			<th><?php echo lang('created') ?></th>
 			<th><?php echo lang('modified') ?></th>
-			<th></th>
+			<th><?php echo lang('control_entry') ?></th>
 		</tr>
 	</thead>
 	<tbody>

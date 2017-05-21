@@ -16,10 +16,11 @@ $lang = array(
 	'action_view' => '表示',
 	'created' => '作成日時',
 	'modified' => '更新日時',
+	'control_entry' => '操作',
 
 	// ******************************************
 	// Entries
-	'title_entries' => 'CRUD基本テスト',
+	'title_entries' => 'CRUDの基本',
 
 		// ページ
 		'entries_insert' => '新規投稿',
