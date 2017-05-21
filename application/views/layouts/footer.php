@@ -16,8 +16,7 @@
 		</div>
 
 		<!-- JavaScript -->
-		<script src="//code.jquery.com/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.2/dist/jquery.min.js,npm/bootstrap@3.3/dist/js/bootstrap.min.js"></script>
 		<script>var confirm_delete = '<?php echo lang("confirm_delete") ?>';</script>
 		<script src="<?php echo site_url('assets/js/common.js') ?>"></script>
 	</body>

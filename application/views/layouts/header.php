@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo lang('title_'.$controller) ?></title>
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3/dist/css/bootstrap.min.css">
 		<?php echo link_tag('assets/css/common.css') ?>
 	</head>
 	<body>
