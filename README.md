@@ -3,6 +3,10 @@
 CodeIgniterでCRUD機能を試したサンプルプログラムです。
 
 
+## Demo
+https://sutara79-codeigniter.herokuapp.com/
+
+
 ## Environments
 - CodeIgniter 2.1.4
 - SQLite3
